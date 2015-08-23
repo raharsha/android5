@@ -1,0 +1,15 @@
+package it.jaschke.alexandria;
+
+/**
+ * Created by harsha on 8/10/15.
+ */
+import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+
+public class SimpleScannerFragmentActivity extends ActionBarActivity {
+    @Override
+    public void onCreate(Bundle state) {
+        super.onCreate(state);
+        setContentView(R.layout.activity_simple_scanner_fragment);
+    }
+}
